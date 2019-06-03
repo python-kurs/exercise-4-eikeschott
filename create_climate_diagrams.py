@@ -82,7 +82,7 @@ def create_climate_diagram(df, temp_col:str, prec_col:str, title:str, filename:s
     return fig
 
 # Use this function to draw a climate diagram for 2018 for both stations and save the result: [1P]
-create_climate_diagram(df=garmisch, temp_col=" TMK", prec_col=" RSK", title="Garmisch", filename="Garmisch.png", temp_min=-15, temp_max=20, prec_min=0, prec_max=370)
+create_climate_diagram(df=garmisch, temp_col=" TMK", prec_col=" RSK", title="Garmisch", filename="output/Garmisch.png", temp_min=-15, temp_max=20, prec_min=0, prec_max=370)
 
-create_climate_diagram(df=zugspitze, temp_col=" TMK", prec_col=" RSK", title="Zugspitze", filename="Zugspitze.png", temp_min=-15, temp_max=20, prec_min=0, prec_max=370)
+create_climate_diagram(df=zugspitze, temp_col=" TMK", prec_col=" RSK", title="Zugspitze", filename="output/Zugspitze.png", temp_min=-15, temp_max=20, prec_min=0, prec_max=370)
 
